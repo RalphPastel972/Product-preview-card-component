@@ -39,11 +39,12 @@ article {
   letter-spacing: 0.3em;
 }
 
-.product_name {
+.product_name h1 {
   font-family: Fraunces;
   color: var(--neutral-very-dark-blue);
   font-size: xx-large;
   font-weight: 800;
+  margin: 0;
 }
 
 .product_description > p {
