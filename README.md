@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL:](https://github.com/RalphPastel972/Product-preview-card-component) https://github.com/RalphPastel972/Product-preview-card-component
-- [Live Site URL:](https://ralphpastel972.github.io/Product-preview-card-component/) https://ralphpastel972.github.io/Product-preview-card-component/
+- [Solution URL:](https://github.com/RalphPastel972/Product-preview-card-component)
+- [Live Site URL:](https://ralphpastel972.github.io/Product-preview-card-component/)
 
 ## My process
 
@@ -65,6 +65,8 @@ I woud focus on the layout first and on the styling at the end, instead of doing
 Using `gap` in the text sections created some weird issue whith the media query: While it was perfect with the "mobile diplay", there was a slice shift in the "desktop display".
 
 I needed to use `max-width: calc(100% + 10px);` to compensate the shift.
+
+Actually, it is because I should have done it this way: The img element and the div element containing the text content should each take up 50% of the width. (Thanks @dakirzakaria for the tip)
 
 #### Help needed
 
